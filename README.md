@@ -1,4 +1,4 @@
-# LB-324 – Tagebuch-App (Flask)
+# LB-324 – Tagebuch-App (Flask) - Bytyqi Artur – IM23b
 
 ## Beschreibung
 Kleine **Tagebuch-App** in **Flask (Python)**.  
