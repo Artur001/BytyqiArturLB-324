@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Tagebuch</h1>
+    <form method="POST" action="/add_entry">
+      <input name="content" placeholder="Eintrag" required>
+      <select name="happiness">
+        <option value="">--</option>
+        <option>😃</option>
+        <option>😐</option>
+        <option>😢</option>
+      </select>
+      <button type="submit">Speichern</button>
+    </form>
+    <ul>
+      {% for e in entries %}
+        <li>{{ e.content }} {{ e.happiness }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
