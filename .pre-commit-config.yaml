@@ -16,7 +16,7 @@ repos:
     hooks:
       - id: pytest
         name: Run pytest
-        entry: pytest test_app.py
+        entry: pytest
         language: system
         types: [python]
         stages: [push]
